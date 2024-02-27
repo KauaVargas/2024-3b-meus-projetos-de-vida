@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Montserrat&display=swap');
+
+
+:root{
+    --vermelho-vinho: #590d22;
+    --vermelho-vinho-claro: #800f2f;
+    --vermelho-vinho-mais-claro: #800f2f;
+    --vermelho-vinho-muito-claro: #c9184a;
+    --font-titulo:  "Montserrat", sans-serif;
+    --font-texto: "Anta", sans-serif;
+
+}
+
+body{
+    background-color: var(--vermelho-vinho);
+}
