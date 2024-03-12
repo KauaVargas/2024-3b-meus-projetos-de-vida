@@ -68,7 +68,7 @@ body{
 
 .ativo{
     background-color: var(--vermelho-vinho);
-    border-bottom: var(--vermelho-vinho-muito-claro);
+    border-bottom: 4px solid var(--vermelho-vinho-mais-claro)
 }
 
 @media screen and (min-width: 768px) {
