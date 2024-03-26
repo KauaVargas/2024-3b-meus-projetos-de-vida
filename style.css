@@ -13,7 +13,7 @@
 
 body{
     background-color: var(--vermelho-vinho);
-    color: var(--vermelho-vinho-muito-claro);
+    color: white;
     font-family: var(--font-texto);
 }
 
@@ -66,9 +66,34 @@ body{
     border-radius: 0 0 40px 40px;
 }
 
-.ativo{
+.botao.ativo{
     background-color: var(--vermelho-vinho);
     border-bottom: 4px solid var(--vermelho-vinho-mais-claro)
+}
+
+.abas-texto{
+    background-color: var(--vermelho-vinho-muito-claro);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.aba-conteudo.ativo{
+    display: block;
+}
+
+.aba-conteudo{
+    display: none;
+}
+
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
